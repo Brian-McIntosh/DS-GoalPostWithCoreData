@@ -7,25 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25C27EB62952E20D00795238 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C27EB52952E20D00795238 /* GoalType.swift */; };
+		25C27EB82953439700795238 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C27EB72953439700795238 /* CreateGoalVC.swift */; };
+		25C27EBA295351D100795238 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C27EB9295351D100795238 /* UIViewControllerExt.swift */; };
+		25C27EBC29535AD600795238 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C27EBB29535AD600795238 /* UIViewExt.swift */; };
+		25C27EBE2953614500795238 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C27EBD2953614500795238 /* UIButtonExt.swift */; };
+		25C27EC029537DF300795238 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C27EBF29537DF300795238 /* FinishGoalVC.swift */; };
 		25CF388F29527CCA0040821E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF388E29527CCA0040821E /* AppDelegate.swift */; };
 		25CF389129527CCA0040821E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF389029527CCA0040821E /* SceneDelegate.swift */; };
-		25CF389329527CCA0040821E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF389229527CCA0040821E /* ViewController.swift */; };
+		25CF389329527CCA0040821E /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF389229527CCA0040821E /* GoalsVC.swift */; };
 		25CF389629527CCA0040821E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25CF389429527CCA0040821E /* Main.storyboard */; };
 		25CF389929527CCA0040821E /* GoalPostApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25CF389729527CCA0040821E /* GoalPostApp.xcdatamodeld */; };
 		25CF389B29527CCC0040821E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25CF389A29527CCC0040821E /* Assets.xcassets */; };
 		25CF389E29527CCC0040821E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25CF389C29527CCC0040821E /* LaunchScreen.storyboard */; };
+		25F812BB2952C22A003F850E /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F812BA2952C22A003F850E /* GoalCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25C27EB52952E20D00795238 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		25C27EB72953439700795238 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		25C27EB9295351D100795238 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		25C27EBB29535AD600795238 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		25C27EBD2953614500795238 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		25C27EBF29537DF300795238 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 		25CF388B29527CCA0040821E /* GoalPostApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalPostApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25CF388E29527CCA0040821E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25CF389029527CCA0040821E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		25CF389229527CCA0040821E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25CF389229527CCA0040821E /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
 		25CF389529527CCA0040821E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25CF389829527CCA0040821E /* GoalPostApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoalPostApp.xcdatamodel; sourceTree = "<group>"; };
 		25CF389A29527CCC0040821E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25CF389D29527CCC0040821E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25CF389F29527CCC0040821E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F812BA2952C22A003F850E /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +72,13 @@
 		25CF388D29527CCA0040821E /* GoalPostApp */ = {
 			isa = PBXGroup;
 			children = (
+				25CF38A829527D1F0040821E /* Extensions */,
+				25CF38A729527D160040821E /* Enums */,
+				25CF38A929527DBD0040821E /* -Models- */,
+				25CF38A629527D080040821E /* View */,
+				25CF38A529527CE40040821E /* Contoller */,
 				25CF388E29527CCA0040821E /* AppDelegate.swift */,
 				25CF389029527CCA0040821E /* SceneDelegate.swift */,
-				25CF389229527CCA0040821E /* ViewController.swift */,
 				25CF389429527CCA0040821E /* Main.storyboard */,
 				25CF389A29527CCC0040821E /* Assets.xcassets */,
 				25CF389C29527CCC0040821E /* LaunchScreen.storyboard */,
@@ -68,6 +86,49 @@
 				25CF389729527CCA0040821E /* GoalPostApp.xcdatamodeld */,
 			);
 			path = GoalPostApp;
+			sourceTree = "<group>";
+		};
+		25CF38A529527CE40040821E /* Contoller */ = {
+			isa = PBXGroup;
+			children = (
+				25CF389229527CCA0040821E /* GoalsVC.swift */,
+				25C27EB72953439700795238 /* CreateGoalVC.swift */,
+				25C27EBF29537DF300795238 /* FinishGoalVC.swift */,
+			);
+			path = Contoller;
+			sourceTree = "<group>";
+		};
+		25CF38A629527D080040821E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25F812BA2952C22A003F850E /* GoalCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25CF38A729527D160040821E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				25C27EB52952E20D00795238 /* GoalType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		25CF38A829527D1F0040821E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				25C27EB9295351D100795238 /* UIViewControllerExt.swift */,
+				25C27EBB29535AD600795238 /* UIViewExt.swift */,
+				25C27EBD2953614500795238 /* UIButtonExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		25CF38A929527DBD0040821E /* -Models- */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "-Models-";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +202,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25CF389329527CCA0040821E /* ViewController.swift in Sources */,
+				25C27EBC29535AD600795238 /* UIViewExt.swift in Sources */,
+				25C27EBE2953614500795238 /* UIButtonExt.swift in Sources */,
+				25CF389329527CCA0040821E /* GoalsVC.swift in Sources */,
 				25CF388F29527CCA0040821E /* AppDelegate.swift in Sources */,
+				25C27EBA295351D100795238 /* UIViewControllerExt.swift in Sources */,
+				25C27EC029537DF300795238 /* FinishGoalVC.swift in Sources */,
+				25C27EB62952E20D00795238 /* GoalType.swift in Sources */,
 				25CF389929527CCA0040821E /* GoalPostApp.xcdatamodeld in Sources */,
+				25C27EB82953439700795238 /* CreateGoalVC.swift in Sources */,
+				25F812BB2952C22A003F850E /* GoalCell.swift in Sources */,
 				25CF389129527CCA0040821E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,8 +365,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,8 +393,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
