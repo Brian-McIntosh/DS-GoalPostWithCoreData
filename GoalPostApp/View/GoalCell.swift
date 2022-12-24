@@ -18,5 +18,4 @@ class GoalCell: UITableViewCell {
         self.goalTypeLabel.text = goal.goalType // change to GoalType later
         self.goalProgressLabel.text = String(describing: goal.goalProgress)
     }
-    
 }
